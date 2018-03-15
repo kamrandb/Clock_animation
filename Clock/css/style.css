@@ -1,0 +1,57 @@
+.clock{
+	width: 500px;
+	height: 500px;
+	
+	margin: 200px 300px;
+	
+	
+}
+
+img{
+	width: 100%;
+	margin-right: 200px;
+	
+}
+
+.saat {
+
+	width: 15px;
+	height: 300px;
+	
+	
+}
+
+.saat img{
+
+	width: 85px;
+    height: 178px;
+    overflow: hidden;
+    position: absolute;
+    top: 276px;
+    left: 510px;
+      transform-origin: 50% 80%;
+    animation: saat 3600s linear infinite;
+   
+
+  
+}
+.saniye img{
+
+	width: 85px;
+    height: 178px;
+    overflow: hidden;
+    position: absolute;
+    top: 276px;
+    left: 510px;
+      transform-origin: 50% 80%;
+    animation: saat 60s linear infinite;
+   
+}
+
+
+@keyframes saat{
+
+	  100% {
+    transform: rotateZ(360deg);
+  }
+}
